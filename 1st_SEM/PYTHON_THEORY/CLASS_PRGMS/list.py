@@ -9,7 +9,7 @@ def read_data():
     phone=input("Enter phone no:")
     email=input("Enter email:")
 
-    marks = []
+    marks= []
     marks.append(int(input("Enter first subject mark: ")))
     marks.append(int(input("Enter second subject mark: ")))
     marks.append(int(input("Enter third subject mark: ")))

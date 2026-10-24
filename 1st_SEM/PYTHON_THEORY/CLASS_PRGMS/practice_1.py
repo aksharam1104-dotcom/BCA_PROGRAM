@@ -1,0 +1,18 @@
+print(f'ENTER FIRST STUDENT DETAILS')
+stud_1= input('YOUR_NAME : ')
+english_mark= int(input('ENGLISH_MARK:'))
+maths_mark =int(input('MATHS_MARK:'))
+python_mark = int(input('PYTHON_MARK:'))
+sum = (english_mark)+(maths_mark)+(python_mark)
+average = sum/300*100
+print(f'---------------------------------------------------------------------')
+print(f'ENTER SECOND STUDENT DETAILS')
+stud_2= input('YOUR_NAME : ')
+englishmark= int(input('ENGLISH_MARK:'))
+mathsmark =int(input('MATHS_MARK:'))
+pythonmark = int(input('PYTHON_MARK:'))
+sum = (englishmark)+(mathsmark)+(pythonmark)
+average = sum/300*100
+print(f'{'NAME':<20}\t{'PYTHON':<20}\t{'ENGLISH':<20}\t{'MATHS':<20}\t{'TOTAL':<20}\t{'%':<20}')
+input (f'{stud_1:<20}\t{python_mark:<20}\t{english_mark:<20}\t{maths_mark:<20}\t{sum:<20}\t{average:<20}')
+input (f'{stud_2:<20}\t{pythonmark:<20}\t{englishmark:<20}\t{mathsmark:<20}\t{sum:<20}\t{average:<20}')
